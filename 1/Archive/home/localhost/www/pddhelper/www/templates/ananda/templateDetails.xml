@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site" method="upgrade">
+	<name>ananda</name>
+	<creationDate>2015-06-28</creationDate>
+	<author>Fjodor Schäfer</author>
+	<authorUrl>http://www.schefa.com</authorUrl>
+	<copyright>Copyright (c) 2015 - Fjodor Schäfer</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>2.0</version>	
+	<description>Ananda - Free and Responsive Bootstrap Theme</description>
+	
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>error.php</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>language</folder>
+		<folder>lib</folder>
+	</files>
+	
+	<languages folder="language"> 
+		<language tag="en-GB">en-GB/en-GB.tpl_ananda.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ananda.sys.ini</language>
+		<language tag="de-DE">de-DE/de-DE.tpl_ananda.ini</language>
+		<language tag="de-DE">de-DE/de-DE.tpl_ananda.sys.ini</language>
+	</languages>
+	
+	<positions>
+		<position>banner</position>
+		<position>breadcrumbs</position>
+		<position>footer</position>
+		<position>header</position>
+		<position>left</position>
+		<position>login</position>
+		<position>mainmenu</position>
+		<position>content-bottom-1</position>
+		<position>content-bottom-2</position>
+		<position>content-bottom-3</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>right</position>
+		<position>search</position>
+		<position>submenu</position>
+		<position>top</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced" label="TPL_ANANDA_SETTINGS">
+			
+				<field name="jquery" type="list" default="0" label="TPL_ANANDA_JQUERY" description="TPL_ANANDA_JQUERY_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="logo-image" type="media" default="" label="TPL_ANANDA_IMAGE" description="TPL_ANANDA_IMAGE_DESC" />
+				
+				<field name="bgSpacer" type="spacer" hr="true" />
+				<field name="bgSpacer1" type="spacer" label="TPL_ANANDA_BGCOLOR" />
+				<field name="bgcolor1" type="color" default="#333333" label="1" />
+				<field name="bgcolor2" type="color" default="#FDFDFD" label="2" />
+				<field name="bgcolor3" type="color" default="#FFFFFF" label="3" />
+				<field name="bgcolor4" type="color" default="#F4F4F4" label="4" />
+				<field name="bgcolor5" type="color" default="#F9F9F9" label="5" />
+				
+				<field name="fontSpacer" type="spacer" label="TPL_ANANDA_FONTCOLOR" />
+				<field name="color1" type="color" default="#333333" label="1" />
+				<field name="color2" type="color" default="#999999" label="2" />
+				<field name="color3" type="color" default="#BBBBBB" label="3" />
+				
+				<field name="borderSpacer" type="spacer" label="TPL_ANANDA_BORDERCOLOR" />
+				<field name="bordercolor1" type="color" default="#DDDDDD" label="1" />
+				<field name="bordercolor2" type="color" default="#EEEEEE" label="2" />
+				<field name="bordercolor3" type="color" default="#444444" label="3" />
+				
+				<field name="toggleAlias" type="spacer" hr="true" />
+				<field name="toggleLeft" type="text" default="Toogle Left" label="TPL_ANANDA_TOGGLEL" />
+				<field name="toggleRight" type="text" default="Toogle Right" label="TPL_ANANDA_TOGGLER" />
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

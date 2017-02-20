@@ -1,0 +1,43 @@
+X-Sendmail-Cmdline: sendmail.pl -t -i -floginforgame@yandex.ru
+To: loginforgame@yandex.ru
+Subject: =?utf-8?B?0KDQtdC30YPQu9GM0YLQsNGC0Ysg0YLQtdGB0YLQsA==?=
+X-PHP-Originating-Script: 0:class.phpmailer.php
+Date: Tue, 31 Jan 2017 20:39:05 +0400
+From: loginforgame@yandex.ru
+Message-ID: <d8d19ba0921f9512e4c4a20e00aedb06@localhost>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<div align="center">
+<p>Уважаемый, Guest! Вы прошли тест 'Экзамен АВМ'.</p>
+</div>
+<table style="border: 1px solid #cccccc; width: 100%;" border="0">
+<tbody>
+<tr>
+<th class="sectiontableheader" style="text-align: center;" colspan="2">Ваши результаты:</th>
+</tr>
+<tr>
+<td style="text-align: left; width: 50%; white-space: nowrap;">Результат:</td>
+<td style="text-align: left;">0 / 1</td>
+</tr>
+<tr>
+<td style="text-align: left; white-space: nowrap;">Процентное отношение :</td>
+<td style="text-align: left;">0.00 %</td>
+</tr>
+<tr>
+<td style="text-align: left; white-space: nowrap;">Дата начала:</td>
+<td style="text-align: left;">2017-01-31 16:38:43</td>
+</tr>
+<tr>
+<td style="text-align: left; white-space: nowrap;">Дата окончания:</td>
+<td style="text-align: left;">2017-01-31 16:38:44</td>
+</tr>
+<tr>
+<td style="text-align: left; white-space: nowrap;">Время:</td>
+<td style="text-align: left;">1 Сек.</td>
+</tr>
+</tbody>
+</table>
+

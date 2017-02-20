@@ -1,0 +1,44 @@
+170220 13:30:39 [Note] Plugin 'FEDERATED' is disabled.
+170220 13:30:40 InnoDB: The InnoDB memory heap is disabled
+170220 13:30:40 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170220 13:30:40 InnoDB: Compressed tables use zlib 1.2.3
+170220 13:30:40 InnoDB: Initializing buffer pool, size = 128.0M
+170220 13:30:40 InnoDB: Completed initialization of buffer pool
+170220 13:30:40 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170220 13:30:40  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170220 13:30:43  InnoDB: Waiting for the background threads to start
+170220 13:30:44 InnoDB: 1.1.8 started; log sequence number 27074080
+170220 13:30:44 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170220 13:30:44 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170220 13:30:44 [Note] Server socket created on IP: '127.0.0.1'.
+170220 13:30:44 [Note] Event Scheduler: Loaded 0 events
+170220 13:30:44 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170220 13:32:03 [Note] Plugin 'FEDERATED' is disabled.
+170220 13:32:03 InnoDB: The InnoDB memory heap is disabled
+170220 13:32:03 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170220 13:32:03 InnoDB: Compressed tables use zlib 1.2.3
+170220 13:32:03 InnoDB: Initializing buffer pool, size = 128.0M
+170220 13:32:03 InnoDB: Completed initialization of buffer pool
+170220 13:32:03 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170220 13:32:03  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170220 13:32:06  InnoDB: Waiting for the background threads to start
+170220 13:32:07 InnoDB: 1.1.8 started; log sequence number 27074080
+170220 13:32:07 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170220 13:32:07 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170220 13:32:07 [Note] Server socket created on IP: '127.0.0.1'.
+170220 13:32:07 [Note] Event Scheduler: Loaded 0 events
+170220 13:32:07 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)

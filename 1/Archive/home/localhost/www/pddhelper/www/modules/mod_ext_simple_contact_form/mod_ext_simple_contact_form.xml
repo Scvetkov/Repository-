@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>EXT Simple Contact Form</name>
+	<author>Ext-Joom.com</author>
+	<creationDate>25/02/2015</creationDate>
+	<copyright>Copyright (C) 2011-2015 Ext-Joom.com. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>extjoom@gmail.com</authorEmail>
+	<authoralt>http://www.Ext-Joom.com</authoralt>
+	<version>1.0</version>
+	<description>The module displays a quick contact form.</description>
+	<files>	
+		<filename module="mod_ext_simple_contact_form">mod_ext_simple_contact_form.php</filename>
+		<filename>index.html</filename>
+		<filename>recaptchalib.php</filename>
+		<filename>mod_ext_simple_contact_form.php</filename>
+		<filename>mod_ext_simple_contact_form.xml</filename>
+		<folder>tmpl</folder>	    
+    </files>
+	
+	<languages>	
+		<language tag="en-GB">en-GB.mod_ext_simple_contact_form.ini</language>
+		<language tag="en-GB">en-GB.mod_ext_simple_contact_form.sys.ini</language>
+		<language tag="ru-RU">ru-RU.mod_ext_simple_contact_form.ini</language>
+		<language tag="ru-RU">ru-RU.mod_ext_simple_contact_form.sys.ini</language>	
+	</languages>
+		
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+	
+				<field 
+					name="publickey" 
+					type="text" 
+					default="" 
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_PUBLICKEY_LABEL" 
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_PUBLICKEY_DESC"/>
+					
+				<field 
+					name="privatekey" 
+					type="text" 
+					default="" 
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_PRIVATEKEY_LABEL" 
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_PRIVATEKEY_DESC"/>				
+				
+				
+				<field
+					name="ext_recaptcha_lang"
+					type="list"
+					default="en"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_EXT_RECAPTCHA_LANG_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_EXT_RECAPTCHA_LANG_DESC">
+					<option	value="ar">Arabic</option>
+					<option	value="bg">Bulgarian</option>
+					<option	value="ca">Catalan</option>
+					<option	value="zh-CN">Chinese (Simplified)</option>
+					<option	value="zh-TW">Chinese (Traditional)</option>
+					<option	value="hr">Croatian</option>
+					<option	value="cs">Czech</option>
+					<option	value="da">Danish</option>
+					<option	value="nl">Dutch</option>
+					<option	value="en-GB">English (UK)</option>
+					<option	value="en">English (US)</option>
+					<option	value="fil">Filipino</option>
+					<option	value="fi">Finnish</option>
+					<option	value="fr">French</option>
+					<option	value="fr-CA">French (Canadian)</option>
+					<option	value="de">German</option>
+					<option	value="de-AT">German (Austria)</option>
+					<option	value="de-CH">German (Switzerland)</option>
+					<option	value="el">Greek</option>
+					<option	value="iw">Hebrew</option>
+					<option	value="hi">Hindi</option>
+					<option	value="hu">Hungarain</option>
+					<option	value="id">Indonesian</option>
+					<option	value="it">Italian</option>
+					<option	value="ja">Japanese</option>
+					<option	value="ko">Korean</option>
+					<option	value="lv">Latvian</option>
+					<option	value="lt">Lithuanian</option>
+					<option	value="no">Norwegian</option>
+					<option	value="fa">Persian</option>
+					<option	value="pl">Polish</option>
+					<option	value="pt">Portuguese</option>
+					<option	value="pt-BR">Portuguese (Brazil)</option>
+					<option	value="pt-PT">Portuguese (Portugal)</option>
+					<option	value="ro">Romanian</option>
+					<option	value="ru">Russian</option>
+					<option	value="sr">Serbian</option>
+					<option	value="sk">Slovak</option>
+					<option	value="sl">Slovenian</option>
+					<option	value="es">Spanish</option>
+					<option	value="es-419">Spanish (Latin America)</option>
+					<option	value="sv">Swedish</option>
+					<option	value="th">Thai</option>
+					<option	value="tr">Turkish</option>
+					<option	value="uk">Ukrainian</option>
+					<option	value="vi">Vietnamese</option>
+				</field>
+				
+				
+				<field
+					name="ext_my_email"
+					type="textarea"
+					filter="raw"
+					default="your@email.com"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_MY_EMAIL_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_MY_EMAIL_DESC" />
+					
+				<field
+					name="ext_send_label"
+					type="text"
+					default="Send"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_FIELD_SEND_LABEL_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_NAME_LABEL_DESC" />
+					
+				
+				<field type="spacer" label="REQUIRED_FIELDS_SPACER" />
+				
+				<field
+					name="ext_name_label"
+					type="text"
+					default="Name:"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_FIELD_NAME_LABEL_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_NAME_LABEL_DESC" />
+				
+				<field
+					name="ext_email_label"
+					type="text"
+					default="e-mail:"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_FIELD_EMAIL_LABEL_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_NAME_LABEL_DESC" />
+				
+				<field
+					name="ext_subject_label"
+					type="text"
+					default="Subject:"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_FIELD_SUBJECT_LABEL_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_NAME_LABEL_DESC" />
+				
+				<field
+					name="ext_message_label"
+					type="text"
+					default="Message:"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_FIELD_MESSAGE_LABEL_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_NAME_LABEL_DESC" />
+							
+				
+				<field type="spacer" label="MESSAGES_SPACER" />	
+				
+				<field
+					name="ext_recaptcha_message"
+					type="textarea"
+					filter="raw"
+					rows="2" 
+					cols="40"
+					default="You have not entered the correct CAPTCHA!"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_RECAPTCHA_MESSAGE_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_RECAPTCHA_MESSAGE_DESC" />
+				
+				
+				<field
+					name="ext_send_message"
+					type="textarea"
+					filter="raw"
+					rows="2" 
+					cols="40"
+					default="Thank you, your message has been sent!"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_SEND_MESSAGE_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_SEND_MESSAGE_DESC" />
+				<field
+					name="ext_error_email"
+					type="textarea"
+					filter="raw"
+					rows="2" 
+					cols="40"
+					default="You have entered incorrect email. Please fix it!"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_ERROR_EMAIL_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_ERROR_EMAIL_DESC" />
+				
+				<field
+					name="ext_error_field"
+					type="textarea"
+					filter="raw"
+					rows="2" 
+					cols="40"
+					default="Please fill in all fields!"
+					label="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_ERROR_FIELD_LABEL"
+					description="MOD_EXT_SIMPLE_CONTACT_FORM_FIELD_ERROR_FIELD_DESC" />
+				
+				
+				
+			</fieldset>
+			
+			<fieldset
+				name="advanced">
+				
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+					
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					class="btn-group"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,32 @@
+X-Sendmail-Cmdline: sendmail.pl -t -i -floginforgame@yandex.ru
+To: loginforgame@yandex.ru
+Subject: =?utf-8?B?0KDQtdC30YPQu9GM0YLQsNGC0Ysg0YLQtdGB0YLQsA==?=
+X-PHP-Originating-Script: 0:class.phpmailer.php
+Date: Tue, 31 Jan 2017 19:16:00 +0400
+From: loginforgame@yandex.ru
+Message-ID: <64be41cbea409f4ce0e8e00bf88e1347@localhost>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<div align=3D"center"><p>Dear, Guest! You have <span style=3D"text-transfor=
+m: lowercase;">=D0=9F=D1=80=D0=BE=D0=B9=D0=B4=D0=B5=D0=BD=D0=BE</span> quiz=
+ '=D0=AD=D0=BA=D0=B7=D0=B0=D0=BC=D0=B5=D0=BD =D0=90=D0=92=D0=9C'. </p></div=
+> <table border=3D"0" style=3D"border: 1px solid #cccccc; width: 100%"> =09=
+<tbody><tr> =09=09<th class=3D"sectiontableheader" colspan=3D"2" style=3D"t=
+ext-align: center">Quiz Result</th> =09</tr> =09<tr> =09=09<td style=3D"tex=
+t-align: left; width: 50%; white-space: nowrap">Result :</td> =09=09<td sty=
+le=3D"text-align: left">0 / 1</td> =09</tr> =09<tr> =09=09<td style=3D"text=
+-align: left; white-space: nowrap">Percentage :</td> =09=09<td style=3D"tex=
+t-align: left">0.00 %</td> =09</tr> =09<tr> =09=09<td style=3D"text-align: =
+left; white-space: nowrap">Passed :</td> =09=09<td style=3D"text-align: lef=
+t">=D0=9F=D1=80=D0=BE=D0=B9=D0=B4=D0=B5=D0=BD=D0=BE</td> =09</tr> =09<tr> =
+=09=09<td style=3D"text-align: left; white-space: nowrap">Start Date :</td>=
+ =09=09<td style=3D"text-align: left">2017-01-31 15:15:48</td> =09</tr> =09=
+<tr> =09=09<td style=3D"text-align: left; white-space: nowrap">End Date :</=
+td> =09=09<td style=3D"text-align: left">2017-01-31 15:15:58</td> =09</tr> =
+=09<tr> =09=09<td style=3D"text-align: left; white-space: nowrap">Spent Tim=
+e :</td> =09=09<td style=3D"text-align: left">10 =D0=A1=D0=B5=D0=BA.</td> =
+=09</tr> <tr><td>Passed Percentage :<br /></td><td>0.00 %<br /></td></tr></=
+tbody></table>
